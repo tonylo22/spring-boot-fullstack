@@ -35,5 +35,7 @@ jobs:
           distribution: 'temurin'
           java-version: '17'
           cache: 'maven'
+      - name: Login to target Docker repository
+        run: docker login -u ${{ secrets.DOCKER_TO_USERNAME }} -p ${{ secrets.DOCKER_TO_PASSWORD }}
       - name: Build and run Unit/Integration Tests with Maven
         run: mvn -ntp -B verify
