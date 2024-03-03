@@ -20,6 +20,8 @@
 	<properties>
 		<java.version>17</java.version>
 		<docker.username>tonylo22</docker.username>
+		<docker.image.name>spring-boot-api</docker.image.name>
+		<docker.image.tag/>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -172,7 +174,7 @@
 						</platforms>
 					</from>
 					<to>
-						<image>docker.io/${docker.username}/${project.artifactId}:${project.version}</image>
+						<image>docker.io/${docker.username}/${docker.image.name}:${docker.image.tag}</image>
 						<tags>
 							<tag>latest</tag>
 						</tags>
