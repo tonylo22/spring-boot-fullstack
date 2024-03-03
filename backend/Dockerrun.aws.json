@@ -3,7 +3,7 @@
   "containerDefinitions": [
     {
       "name": "spring-boot-api",
-      "image": "tonylo22/spring-boot-api:latest",
+      "image": "tonylo22/spring-boot-api:03.03.2024.17.30.54",
       "essential": true,
       "memory": 512,
       "portMappings": [
